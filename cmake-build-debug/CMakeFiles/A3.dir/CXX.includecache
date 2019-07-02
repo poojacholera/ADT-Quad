@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/meet/pooja-workspace/CLionWorkspace/A3/Quad.cpp
+Quad.h
+/home/meet/pooja-workspace/CLionWorkspace/A3/Quad.h
+
+/home/meet/pooja-workspace/CLionWorkspace/A3/Quad.h
+iostream
+-
+array
+-
+
