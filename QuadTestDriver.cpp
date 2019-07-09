@@ -19,7 +19,7 @@ input/output operators, isSimilar, absValue, and equality relational operators.
 {
    cout << std::left << std::setw(20) << item << q << endl;
 }
-auto main1() -> int
+auto main() -> int
 {
    //cout << "sizeof(long long int) = " <<  sizeof(long long int) << '\n';
    //cout << "Minimum value for long long int: " 
@@ -101,11 +101,11 @@ auto main1() -> int
    assert(qm1234 / q4 / q1 == (q3/3LL + q3 / 3LL + q3 / 3LL) * (q2/ 2LL + q2 / 2LL));
 
    cout << setw(20) << "q4.norm() = " << q4.norm() << endl;
-   double  size_of_q4 = q4; // quad to double ( not double to quad! )
+   double  size_of_q4 = q4(); // quad to double ( not double to quad! )
    cout << setw(20) << "size of q4 = " <<  size_of_q4 << endl;
    cout << setw(20) << "conjugate of q4 = " <<  q4.conjugate() << endl;
 
-   Quad q5{ qmr1234 }; //  
+   Quad q5{ qmr1234 };
    print("Quad q5{ qmr1234 }", q5);
    
    // inverse
