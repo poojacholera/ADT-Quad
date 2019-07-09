@@ -1,3 +1,0 @@
-/home/meet/pooja-workspace/CLionWorkspace/A3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/meet/pooja-workspace/CLionWorkspace/A3/cmake-build-debug/CMakeFiles/A3.dir
-/home/meet/pooja-workspace/CLionWorkspace/A3/cmake-build-debug/CMakeFiles/edit_cache.dir
