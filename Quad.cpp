@@ -105,6 +105,7 @@ bool Quad::isSimilar(const long long int &k) const {
   return this->isSimilar(q);
 }
 
+
 Quad Quad::inverse() const {
   Quad temp;
   long long int x1 = quadNumbers[0], x2 = quadNumbers[1], x3 = quadNumbers[2], x4 = quadNumbers[3];

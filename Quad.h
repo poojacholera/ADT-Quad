@@ -22,7 +22,6 @@ public:
     //virtual Quad()= default;
     Quad(const long long int &x1 = (long long int) 0, const long long int &x2 = (long long int) 1,
          const long long int &x3 = (long long int) 0, const long long int &x4 = (long long int) 1);//default constructor
-
     Quad(const Quad &)= default;//Default copy constructor
     virtual ~Quad() = default;// Defaulted destructor
     Quad& operator=(const Quad &rhs)= default;// defaulted copy assignment
