@@ -150,32 +150,32 @@ Quad.cpp.s:
 	$(MAKE) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Quad.cpp.s
 .PHONY : Quad.cpp.s
 
-main.o: main.cpp.o
+QuadTestDriver.o: QuadTestDriver.cpp.o
 
-.PHONY : main.o
+.PHONY : QuadTestDriver.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/main.cpp.o
-.PHONY : main.cpp.o
+QuadTestDriver.cpp.o:
+	$(MAKE) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/QuadTestDriver.cpp.o
+.PHONY : QuadTestDriver.cpp.o
 
-main.i: main.cpp.i
+QuadTestDriver.i: QuadTestDriver.cpp.i
 
-.PHONY : main.i
+.PHONY : QuadTestDriver.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/main.cpp.i
-.PHONY : main.cpp.i
+QuadTestDriver.cpp.i:
+	$(MAKE) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/QuadTestDriver.cpp.i
+.PHONY : QuadTestDriver.cpp.i
 
-main.s: main.cpp.s
+QuadTestDriver.s: QuadTestDriver.cpp.s
 
-.PHONY : main.s
+.PHONY : QuadTestDriver.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/main.cpp.s
-.PHONY : main.cpp.s
+QuadTestDriver.cpp.s:
+	$(MAKE) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/QuadTestDriver.cpp.s
+.PHONY : QuadTestDriver.cpp.s
 
 # Help Target
 help:
@@ -189,9 +189,9 @@ help:
 	@echo "... Quad.o"
 	@echo "... Quad.i"
 	@echo "... Quad.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... QuadTestDriver.o"
+	@echo "... QuadTestDriver.i"
+	@echo "... QuadTestDriver.s"
 .PHONY : help
 
 

@@ -3,4 +3,4 @@ project(A3)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(A3 main.cpp Quad.cpp Quad.h)
+add_executable(A3 QuadTestDriver.cpp Quad.cpp Quad.h)

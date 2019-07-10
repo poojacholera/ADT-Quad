@@ -4,6 +4,6 @@
 CMakeFiles/A3.dir/Quad.cpp.o: ../Quad.cpp
 CMakeFiles/A3.dir/Quad.cpp.o: ../Quad.h
 
-CMakeFiles/A3.dir/main.cpp.o: ../Quad.h
-CMakeFiles/A3.dir/main.cpp.o: ../main.cpp
+CMakeFiles/A3.dir/QuadTestDriver.cpp.o: ../Quad.h
+CMakeFiles/A3.dir/QuadTestDriver.cpp.o: ../QuadTestDriver.cpp
 

@@ -6,13 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/meet/pooja-workspace/CLionWorkspace/A3/Quad.cpp
-Quad.h
-/home/meet/pooja-workspace/CLionWorkspace/A3/Quad.h
-
 /home/meet/pooja-workspace/CLionWorkspace/A3/Quad.h
 iostream
 -
 array
 -
+
+/home/meet/pooja-workspace/CLionWorkspace/A3/QuadTestDriver.cpp
+iostream
+-
+iomanip
+-
+string
+-
+limits
+-
+cassert
+-
+Quad.h
+/home/meet/pooja-workspace/CLionWorkspace/A3/Quad.h
 

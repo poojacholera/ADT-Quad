@@ -142,6 +142,9 @@ double Quad::norm() {
  * overload function for subscript operator
  * */
 long long int &Quad::operator[](int index) {
+
+
+  if (index<1 || index>4 ) throw std::invalid_argument ("index out of bounds");
   return quadNumbers[(index - 1) % SIZE];
 }
 
@@ -150,6 +153,7 @@ long long int &Quad::operator[](int index) {
  * It uses the getter for quad number
  * */
 const long long int &Quad::operator[](int index) const {
+  if (index<0 || index>3 ) throw std::invalid_argument ("index out of bounds");
   return getQuadNumbers(index % SIZE);
 }
 
@@ -395,6 +399,26 @@ Quad operator^(const Quad &lhs, const int &k) {
   temp.standardize();
   return temp;
 
+}
+
+bool operator<(const Quad &lhs, const Quad& rhs) {
+  Quad x{lhs}, y{rhs};
+  return (x.norm() < y.norm());
+}
+
+bool operator>(const Quad &lhs, const Quad& rhs) {
+  Quad x{lhs}, y{rhs};
+  return !(x<y);
+}
+
+bool operator>=(const Quad &lhs, const Quad &rhs) {
+  Quad x{lhs}, y{rhs};
+  return (x>y || x==y);
+}
+
+bool operator<=(const Quad &lhs, const Quad &rhs) {
+  Quad x{lhs}, y{rhs};
+  return (x<y || x==y);
 }
 
 Quad& Quad::operator+(const long long int &k) const {

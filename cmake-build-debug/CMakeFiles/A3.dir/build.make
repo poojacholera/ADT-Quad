@@ -57,18 +57,18 @@ include CMakeFiles/A3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/A3.dir/flags.make
 
-CMakeFiles/A3.dir/main.cpp.o: CMakeFiles/A3.dir/flags.make
-CMakeFiles/A3.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meet/pooja-workspace/CLionWorkspace/A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/A3.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A3.dir/main.cpp.o -c /home/meet/pooja-workspace/CLionWorkspace/A3/main.cpp
+CMakeFiles/A3.dir/QuadTestDriver.cpp.o: CMakeFiles/A3.dir/flags.make
+CMakeFiles/A3.dir/QuadTestDriver.cpp.o: ../QuadTestDriver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/meet/pooja-workspace/CLionWorkspace/A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/A3.dir/QuadTestDriver.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A3.dir/QuadTestDriver.cpp.o -c /home/meet/pooja-workspace/CLionWorkspace/A3/QuadTestDriver.cpp
 
-CMakeFiles/A3.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A3.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meet/pooja-workspace/CLionWorkspace/A3/main.cpp > CMakeFiles/A3.dir/main.cpp.i
+CMakeFiles/A3.dir/QuadTestDriver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A3.dir/QuadTestDriver.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/meet/pooja-workspace/CLionWorkspace/A3/QuadTestDriver.cpp > CMakeFiles/A3.dir/QuadTestDriver.cpp.i
 
-CMakeFiles/A3.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A3.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meet/pooja-workspace/CLionWorkspace/A3/main.cpp -o CMakeFiles/A3.dir/main.cpp.s
+CMakeFiles/A3.dir/QuadTestDriver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A3.dir/QuadTestDriver.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/meet/pooja-workspace/CLionWorkspace/A3/QuadTestDriver.cpp -o CMakeFiles/A3.dir/QuadTestDriver.cpp.s
 
 CMakeFiles/A3.dir/Quad.cpp.o: CMakeFiles/A3.dir/flags.make
 CMakeFiles/A3.dir/Quad.cpp.o: ../Quad.cpp
@@ -85,13 +85,13 @@ CMakeFiles/A3.dir/Quad.cpp.s: cmake_force
 
 # Object files for target A3
 A3_OBJECTS = \
-"CMakeFiles/A3.dir/main.cpp.o" \
+"CMakeFiles/A3.dir/QuadTestDriver.cpp.o" \
 "CMakeFiles/A3.dir/Quad.cpp.o"
 
 # External object files for target A3
 A3_EXTERNAL_OBJECTS =
 
-A3: CMakeFiles/A3.dir/main.cpp.o
+A3: CMakeFiles/A3.dir/QuadTestDriver.cpp.o
 A3: CMakeFiles/A3.dir/Quad.cpp.o
 A3: CMakeFiles/A3.dir/build.make
 A3: CMakeFiles/A3.dir/link.txt

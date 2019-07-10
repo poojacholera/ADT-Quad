@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/A3.dir/main.cpp.o"
+  "CMakeFiles/A3.dir/QuadTestDriver.cpp.o"
   "CMakeFiles/A3.dir/Quad.cpp.o"
   "A3.pdb"
   "A3"

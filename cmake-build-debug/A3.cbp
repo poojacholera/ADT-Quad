@@ -90,7 +90,7 @@
 		<Unit filename="/home/meet/pooja-workspace/CLionWorkspace/A3/Quad.h">
 			<Option target="A3"/>
 		</Unit>
-		<Unit filename="/home/meet/pooja-workspace/CLionWorkspace/A3/main.cpp">
+		<Unit filename="/home/meet/pooja-workspace/CLionWorkspace/A3/QuadTestDriver.cpp">
 			<Option target="A3"/>
 		</Unit>
 		<Unit filename="/home/meet/pooja-workspace/CLionWorkspace/A3/CMakeLists.txt">

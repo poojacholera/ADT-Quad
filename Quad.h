@@ -56,7 +56,7 @@ public:
     Quad inverse() const;
     Quad conjugate() const;
     double norm();
-    virtual double operator()() const;
+    double operator()() const;
     double absoluteValue();
 
     friend ostream &operator<<(ostream &out, const Quad &quad); // Overloads operator << as a friend
@@ -70,5 +70,9 @@ Quad operator/(const Quad& lhs, const Quad& rhs);//binary operator / : as QUAD o
 Quad operator/(long long int k, const Quad& x);// scalar binary operator / : as INT op QUAD
 bool operator==(const Quad &quad1, const Quad &quad2); //free function
 bool operator!=(const Quad &, const Quad &); // free function
+bool operator<(const Quad& lhs,const Quad& rhs);
+bool operator<=(const Quad& lhs,const Quad& rhs);
+bool operator>(const Quad& lhs,const Quad& rhs);
+bool operator>=(const Quad& lhs,const Quad& rhs);
 Quad operator^(const Quad& lhs,const int & k);
 #endif //A3_QUAD_H
