@@ -319,9 +319,8 @@ const Quad operator*(const long long int& k, const Quad &x) {
   temp.reduce();
   return temp;
 }
-
 /**
- *
+ * converts the Quad object to double
  * */
 Quad::operator double() const {
   Quad temp{*this};
@@ -594,8 +593,7 @@ bool operator<(const Quad &lhs, const Quad& rhs) {
  * @return bool returns true if k is less than rhs
  * */
 bool operator<(const long long int &k, const Quad &rhs) {
-  Quad x{k}, y{rhs};
-  return (x < y);
+  return (Quad(k) < rhs);
 }
 /**
  * operator<(Quad, int) : checks if the lhs Quad object is less than k
@@ -605,8 +603,7 @@ bool operator<(const long long int &k, const Quad &rhs) {
  * @return bool returns true if lhs is less than k
  * */
 bool operator<(const Quad &lhs, const long long int &k) {
-  Quad x{lhs}, y{k};
-  return (x < y);
+  return (lhs < Quad(k));
   //return !(k >= x);
 }
 /**
@@ -617,7 +614,6 @@ bool operator<(const Quad &lhs, const long long int &k) {
  * @return bool returns true if lhs is greater than rhs
  * */
 bool operator>(const Quad &lhs, const Quad& rhs) {
-  //Quad x{lhs}, y{rhs};
   return !(lhs<=rhs);
 }
 /**
@@ -628,7 +624,6 @@ bool operator>(const Quad &lhs, const Quad& rhs) {
  * @return bool returns true if k is greater than rhs
  * */
 bool operator>(const long long int &k, const Quad &rhs) {
-  //Quad x{k}, y{rhs};
   return (Quad(k) > rhs);
   //return !(k<=rhs);
 }
